@@ -56,14 +56,15 @@ Varaaja: {varaaja}
 Päivämäärä: {suomalainenpaiva}
 Aloitusaika: {suomalainenaika}
 Tuntimäärä: {tuntimaara}
-Tuntihinta: {tuntihinta:.2f} €
-Kokonaishinta: {kokonaishinta:.1f} €
+Tuntihinta: {f'{tuntihinta:.2f}'.replace('.', ',')} €
+Kokonaishinta: {f'{kokonaishinta:.1f} '.replace('.', ',')} €
 Maksettu: {maksettu}
 Kohde: {kohde}
 Puhelin: {puhelin}
 Sähköposti: {sahkoposti}
 """)
-    print(f"Varausten yhteishinta: {varaustenyhteishinta:.2f} €")
+    print(
+        f"Varausten yhteishinta: {f'{varaustenyhteishinta:.2f}'.replace('.', ',')} €")
 
     # Tulostetaan varaus konsoliin
 
