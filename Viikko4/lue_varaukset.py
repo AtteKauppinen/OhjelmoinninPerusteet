@@ -114,15 +114,15 @@ def main():
     # Osa B vaatii muutoksia -> Esim. tulostuksien (print-funktio) muuttamisen.
     # Kutsutaan funkioita hae_varaukset, joka palauttaa kaikki varaukset oikeilla tietotyypeillä
     varaukset = hae_varaukset("varaukset.txt")
-    print("(1) Vahvistetut varaukset")
+    print("1) Vahvistetut varaukset")
     vahvistetut_varaukset(varaukset)
-    print("(2) Pitkät varaukset(≥ 3 h)")
+    print("2) Pitkät varaukset(≥ 3 h)")
     pitkät_varaukset(varaukset)
-    print("(3) Varausten vahvistusstatus")
+    print("3) Varausten vahvistusstatus")
     varauksen_vahvistusstatus(varaukset)
-    print("(4) Yhteenveto vahvistuksista")
+    print("4) Yhteenveto vahvistuksista")
     yhteenveto_vahvistuksista(varaukset)
-    print("(5) Vavhistettujen varausten kokonaistulot")
+    print("5) Vavhistettujen varausten kokonaistulot")
     vahvistettujen_kokonaistulot(varaukset)
 
 
