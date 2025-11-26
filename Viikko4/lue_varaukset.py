@@ -102,7 +102,7 @@ def yhteenveto_vahvistuksista(varaukset: list):
 
 def vahvistettujen_kokonaistulot(varaukset: list):
     kokonaistulot = sum(
-        varaus[7] for varaus in varaukset[1:] if varaus[8])
+        varaus[6] * varaus[7] for varaus in varaukset[1:] if varaus[8])
     print(
         f"Vahvistettujen varausten kokonaistulot: {f'{kokonaistulot:.2f}'.replace('.', ',')} €")
     # lisätään tyhjä rivi lopuksi
