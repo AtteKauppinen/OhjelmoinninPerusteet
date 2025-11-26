@@ -86,7 +86,7 @@ def varauksen_vahvistusstatus(varaukset: list):
     for varaus in varaukset[1:]:
         # Nimi → Vahvistettu
         status = "Vahvistettu" if varaus[8] else "Ei vahvistettu"
-        print(f" {varaus[1]} → {status}.")
+        print(f" {varaus[1]} → {status}")
     # lisätään tyhjä rivi lopuksi
     print()
 
