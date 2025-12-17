@@ -1,0 +1,6 @@
+
+Raportti aikaväliltä 12.1.2025 - 25.1.2025
+kokonaiskulutus: 663,52kWh
+kokonaistuotanto: 0,00kWh
+keskilämpötila: -0,50°C
+
