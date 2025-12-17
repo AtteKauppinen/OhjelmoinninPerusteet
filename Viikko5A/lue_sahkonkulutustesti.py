@@ -26,7 +26,7 @@ def lue_data(tiedoston_nimi: str) -> list:
     """ Lukee tiedoston sisällön ja muuntaa palauttaa listan, jossa on muutetut tietorivit
     Kutsuu funktiota muunna_tiedot, joka muuntaa tietorivin oikeisiin tietotyyppeihin.
 
-    parametrit: tiedoston_nimi: käsiteltävän tiedoston nimi
+    parametrit: tiedoston_nimi(str): käsiteltävän tiedoston nimi
 
     palauttaa: kulutustuotantotiedot: lista, jossa on muutetut tietorivit
 
@@ -47,8 +47,8 @@ def paivantiedot(paiva: date, kulutustuotantotiedot: list) -> list:
     ja palauttaa ne listana
 
     parametrit:
-    paiva: raportoitava päivä
-    kulutustuotantotiedot: kulutus- ja tuotantotiedot sekä päivämäärät
+    paiva(date): raportoitava päivä
+    kulutustuotantotiedot(list): kulutus- ja tuotantotiedot sekä päivämäärät
 
     palauttaa: listan, jossa on päivän tiedot merkkijonoina
     """

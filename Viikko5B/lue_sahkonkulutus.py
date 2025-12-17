@@ -48,8 +48,8 @@ def paivantiedot(paiva: date, kulutustuotantotiedot: list) -> list:
     ja palauttaa ne listana
 
     parametrit:
-    paiva: raportoitava päivä
-    kulutustuotantotiedot: kulutus- ja tuotantotiedot sekä päivämäärät
+    paiva(date): raportoitava päivä
+    kulutustuotantotiedot(list): kulutus- ja tuotantotiedot sekä päivämäärät
 
     palauttaa: listan, jossa on päivän tiedot merkkijonoina
     """
